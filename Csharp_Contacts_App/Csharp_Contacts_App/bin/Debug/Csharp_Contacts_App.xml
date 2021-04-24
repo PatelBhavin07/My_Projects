@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Csharp_Contacts_App</name>
+    </assembly>
+    <members>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSet.mycontactDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSet.mygroupsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSet.userDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSet.mycontactRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSet.mygroupsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSet.userRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSet.mycontactRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSet.mygroupsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSet.userRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.mycontactTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.mygroupsTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.userTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Csharp_Contacts_App.CMS_DBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Csharp_Contacts_App.CMS_DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Csharp_Contacts_App.CMS_DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.TableAdapterManager.UpdateAll(Csharp_Contacts_App.CMS_DBDataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.CMS_DBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.Contacts_Full_List_Form">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Contacts_Full_List_Form.#ctor">
+            <summary>
+            method to load Contacts_Full_List_Form showing all contacts as per respected user has added
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Contacts_Full_List_Form.IsOdd(System.Int32)">
+            <summary>
+            bool method to check the integer value is Odd
+            </summary>
+            <param name="value">looking for odd numbers</param>
+            <returns>odd numbers</returns>
+        </member>
+        <member name="F:Csharp_Contacts_App.Contacts_Full_List_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Contacts_Full_List_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Csharp_Contacts_App.Contacts_Full_List_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.Edit_Contact_Form">
+            <summary>
+            method to load EditContactForm's combobox as per logged in user
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Edit_Contact_Form.#ctor">
+            <summary>
+             method to browse picture 
+            Methods include minimize and close
+            </summary>
+        </member>
+        <member name="F:Csharp_Contacts_App.Edit_Contact_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Edit_Contact_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Csharp_Contacts_App.Edit_Contact_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.Edit_User_Data_Form">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Edit_User_Data_Form.#ctor">
+            <summary>
+            method to load Edit_User_Data_Form on buttonClick Update Existing Contact in Main Form
+            method for button browse for image
+            Methods include minimize and close
+            </summary>
+        </member>
+        <member name="F:Csharp_Contacts_App.Edit_User_Data_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Edit_User_Data_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Csharp_Contacts_App.Edit_User_Data_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.Main_Form">
+            <summary>
+            Main Form of the application where user can add/update/delete Contacts as well as Groups
+            Methods include refres, minimize and close
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Main_Form.#ctor">
+            <summary>
+            Buttons Add contact and Edit contact will open the separate Add contact Form and Edit form
+            And user can add/update/delete groups in this Main Form only
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Main_Form.getGroups">
+            <summary>
+            function to populate comboboxes with groups name and id
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Main_Form.getImageAndUsername">
+            <summary>
+            function to get the logged user image and username 
+            </summary>
+        </member>
+        <member name="F:Csharp_Contacts_App.Main_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Main_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Csharp_Contacts_App.Main_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.Login_Register_Form">
+            <summary>
+            Login and register form
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Login_Register_Form.#ctor">
+            <summary>
+            Contains methods performing Login and Register verifying from bool(verifFields) method that whether its login or register
+            Methods include timers to navigate between Login and Register, minimize and close
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Login_Register_Form.verifFields(System.String)">
+            <summary>
+            check empty fields
+            </summary>
+            <param name="operation"></param>
+            <returns>bool value</returns>
+        </member>
+        <member name="F:Csharp_Contacts_App.Login_Register_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Login_Register_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Csharp_Contacts_App.Login_Register_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.Add_Contact_Form">
+            <summary>
+            Method for loading Main_Form
+            Methods include minimize and close
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Add_Contact_Form.#ctor">
+            <summary>
+            Group combobox will run from GROUP class as per user have added the group respectively, I am using Global Id from Globals classs
+            User can add contact details and it will add through CONTACT class
+            </summary>
+        </member>
+        <member name="F:Csharp_Contacts_App.Add_Contact_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Add_Contact_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Csharp_Contacts_App.Add_Contact_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Csharp_Contacts_App.MY_DB.con">
+            <summary>
+            // the connection
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.Select_Contact_Form">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Select_Contact_Form.#ctor">
+            <summary>
+            method to load Select_Contact_Form with contacts(in datagrid) saved by that logged in user
+            Methods include minimize and close
+            </summary>
+        </member>
+        <member name="F:Csharp_Contacts_App.Select_Contact_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Csharp_Contacts_App.Select_Contact_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Csharp_Contacts_App.Select_Contact_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Csharp_Contacts_App.Select_Contact_Form.dataGridView1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Csharp_Contacts_App.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Csharp_Contacts_App.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Csharp_Contacts_App.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
